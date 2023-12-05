@@ -22,8 +22,6 @@ This project aims to develop a mechanism for detecting backdoors in BadNets that
 
 We implemented a strategy to create different versions of the neural network that respond to varying levels of accuracy decline. This involved saving distinct models at specific benchmarks where the accuracy dropped by predetermined percentages: 2%, 4%, and 10%. Each model was named according to the extent of accuracy reduction it represents. For example, the models were labelled as model_withDrop_2.h5, model_withDrop_4.h5, and model_withDrop_10.h5, indicating the degree of decline in accuracy associated with each respective model.
 
-## Structure of the Directory
-
 ## Installation & Setup
 After installing or meeting the dependency requirements, load the jupyter notebook ML_Lab4.ipynb. The notebook is structured to automatically generate the accuracy and attack success rate corresponding to every pruned model level.
 
